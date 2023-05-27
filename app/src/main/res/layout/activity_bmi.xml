@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/plus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_background"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Your BMI"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="20dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <EditText
+            android:id="@+id/ht"
+            android:layout_width="237dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:background="@drawable/text_back"
+            android:hint="@string/ht"
+            android:inputType="number"
+
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardElevation="20dp">
+
+        <EditText
+            android:id="@+id/ft"
+            android:layout_width="237dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:background="@drawable/text_back"
+            android:hint="@string/ft"
+            android:inputType="number"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardElevation="20dp">
+
+        <EditText
+            android:id="@+id/inc"
+            android:layout_width="237dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:background="@drawable/text_back"
+            android:hint="@string/inc"
+            android:inputType="number"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btc"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="11dp"
+        android:text="Calculate_BMI"
+
+        app:cornerRadius="15dp" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="Result"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_marginTop="10dp"
+        />
+
+
+</LinearLayout>

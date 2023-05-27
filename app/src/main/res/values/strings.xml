@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab4_task1</string>
+    <string name="ht">Enter your Weight</string>
+    <string name="ft">Enter Your height in ft</string>
+    <string name="inc">Enter Your height in inches</string>
+
+</resources>

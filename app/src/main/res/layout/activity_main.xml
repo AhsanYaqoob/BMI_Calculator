@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_background"
+    >
+
+
+    <LinearLayout
+
+        android:layout_width="210dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/background_btn"
+        android:orientation="horizontal"
+        android:weightSum=" 3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/bmi" />
+
+
+        <Button
+            android:id="@+id/Button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1"
+            android:background="@drawable/baseline_arrow_forward_ios_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="210dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="194dp"
+        android:background="@drawable/background1_btn"
+        android:orientation="horizontal"
+        android:weightSum=" 3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/heartattack"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" BMR"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/Button3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:background="@drawable/baseline_arrow_forward_ios_24"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="210dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/background_btn"
+        android:orientation="horizontal"
+        android:weightSum=" 3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/obesity" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" BFP"
+            android:textStyle="bold"
+            android:textColor="#B0FAF9"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/Button4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/baseline_arrow_forward_ios_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="210dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/background1_btn"
+        android:orientation="horizontal"
+        android:weightSum=" 3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/measuringtape"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" WHR"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/Button5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/baseline_arrow_forward_ios_24"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="210dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="514dp"
+        android:background="@drawable/background_btn"
+        android:orientation="horizontal"
+        android:weightSum=" 3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/runner" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TDEE"
+            android:textStyle="bold"
+            android:textColor="#B0FAF9"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/Button6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/baseline_arrow_forward_ios_24" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="210dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="620dp"
+        android:background="@drawable/background1_btn"
+        android:orientation="horizontal"
+        android:weightSum=" 3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/muscles"
+
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" EER"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/Button7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/baseline_arrow_forward_ios_24"
+
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
